@@ -1,0 +1,451 @@
+:root {
+  --bs-blue: #0061f2;
+  --bs-indigo: #5800e8;
+  --bs-purple: #6900c7;
+  --bs-pink: #e30059;
+  --bs-red: #e81500;
+  --bs-orange: #f76400;
+  --bs-yellow: #f4a100;
+  --bs-green: #00ac69;
+  --bs-teal: #00ba94;
+  --bs-cyan: #00cfd5;
+  --bs-white: #fff;
+  --bs-gray: #69707a;
+  --bs-gray-dark: #363d47;
+  --bs-gray-100: #f2f6fc;
+  --bs-gray-200: #e0e5ec;
+  --bs-gray-300: #d4dae3;
+  --bs-gray-400: #c5ccd6;
+  --bs-gray-500: #a7aeb8;
+  --bs-gray-600: #69707a;
+  --bs-gray-700: #4a515b;
+  --bs-gray-800: #363d47;
+  --bs-gray-900: #212832;
+  --bs-primary: #0061f2;
+  --bs-secondary: #6900c7;
+  --bs-success: #00ac69;
+  --bs-info: #00cfd5;
+  --bs-warning: #f4a100;
+  --bs-danger: #e81500;
+  --bs-light: #f2f6fc;
+  --bs-dark: #212832;
+  --bs-black: #000;
+  --bs-white: #fff;
+  --bs-red: #e81500;
+  --bs-orange: #f76400;
+  --bs-yellow: #f4a100;
+  --bs-green: #00ac69;
+  --bs-teal: #00ba94;
+  --bs-cyan: #00cfd5;
+  --bs-blue: #0061f2;
+  --bs-indigo: #5800e8;
+  --bs-purple: #6900c7;
+  --bs-pink: #e30059;
+  --bs-red-soft: #f1e0e3;
+  --bs-orange-soft: #f3e7e3;
+  --bs-yellow-soft: #f2eee3;
+  --bs-green-soft: #daefed;
+  --bs-teal-soft: #daf0f2;
+  --bs-cyan-soft: #daf2f8;
+  --bs-blue-soft: #dae7fb;
+  --bs-indigo-soft: #e3ddfa;
+  --bs-purple-soft: #e4ddf7;
+  --bs-pink-soft: #f1ddec;
+  --bs-primary-soft: #dae7fb;
+  --bs-secondary-soft: #e4ddf7;
+  --bs-success-soft: #daefed;
+  --bs-info-soft: #daf2f8;
+  --bs-warning-soft: #f2eee3;
+  --bs-danger-soft: #f1e0e3;
+  --bs-primary-rgb: 0, 97, 242;
+  --bs-secondary-rgb: 105, 0, 199;
+  --bs-success-rgb: 0, 172, 105;
+  --bs-info-rgb: 0, 207, 213;
+  --bs-warning-rgb: 244, 161, 0;
+  --bs-danger-rgb: 232, 21, 0;
+  --bs-light-rgb: 242, 246, 252;
+  --bs-dark-rgb: 33, 40, 50;
+  --bs-black-rgb: 0, 0, 0;
+  --bs-white-rgb: 255, 255, 255;
+  --bs-red-rgb: 232, 21, 0;
+  --bs-orange-rgb: 247, 100, 0;
+  --bs-yellow-rgb: 244, 161, 0;
+  --bs-green-rgb: 0, 172, 105;
+  --bs-teal-rgb: 0, 186, 148;
+  --bs-cyan-rgb: 0, 207, 213;
+  --bs-blue-rgb: 0, 97, 242;
+  --bs-indigo-rgb: 88, 0, 232;
+  --bs-purple-rgb: 105, 0, 199;
+  --bs-pink-rgb: 227, 0, 89;
+  --bs-red-soft-rgb: 241, 224, 227;
+  --bs-orange-soft-rgb: 243, 231, 227;
+  --bs-yellow-soft-rgb: 242, 238, 227;
+  --bs-green-soft-rgb: 218, 239, 237;
+  --bs-teal-soft-rgb: 218, 240, 242;
+  --bs-cyan-soft-rgb: 218, 242, 248;
+  --bs-blue-soft-rgb: 218, 231, 251;
+  --bs-indigo-soft-rgb: 227, 221, 250;
+  --bs-purple-soft-rgb: 228, 221, 247;
+  --bs-pink-soft-rgb: 241, 221, 236;
+  --bs-primary-soft-rgb: 218, 231, 251;
+  --bs-secondary-soft-rgb: 228, 221, 247;
+  --bs-success-soft-rgb: 218, 239, 237;
+  --bs-info-soft-rgb: 218, 242, 248;
+  --bs-warning-soft-rgb: 242, 238, 227;
+  --bs-danger-soft-rgb: 241, 224, 227;
+  --bs-white-rgb: 255, 255, 255;
+  --bs-black-rgb: 0, 0, 0;
+  --bs-body-color-rgb: 105, 112, 122;
+  --bs-body-bg-rgb: 242, 246, 252;
+  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  --bs-body-font-family: "Poppins", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  --bs-body-font-size: 1rem;
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 1.5;
+  --bs-body-color: #69707a;
+  --bs-body-bg: #f2f6fc;
+}
+
+body {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.fixed-top.navbar-scrolled {
+    background-color: #252525 !important;
+}
+
+.navbar-scrolled .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.fixed-top, .page-header-ui.navbar-fixed .navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.bg-transparent {
+    --bs-bg-opacity: 1;
+    background-color: transparent !important;
+}
+
+.navbar-brand {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.fixed-top .navbar-toggler {
+    color: rgba(255, 255, 255, 0.55);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link:focus {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.navbar-main {
+    transition: background-color 0.15s ease-in-out;
+    /*padding-top: 1.75rem;
+    padding-bottom: 1.75rem;*/
+}
+
+.header-ui {
+    position: relative;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.pt-10 {
+    padding-top: 6rem !important;
+}
+
+.py-10 {
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+}
+
+.px-5 {
+    padding-right: 2.5rem !important;
+    padding-left: 2.5rem !important;
+}
+
+.bg-gradient-primary-to-secondary {
+    background-color: rgb(2,0,36) !important;
+        background-image: url(../img/me-small.png);
+        background-image: url(../img/me-small.png), linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(9,20,121,1) 0%, rgba(0,212,255,1) 100%) !important;
+        background-repeat: no-repeat;
+        background-position: bottom left;
+}
+
+.header-ui-content, .header-ui-title {
+    font-size: 1.5rem;
+}
+
+.header-ui-title {
+    color: #fff;
+}
+
+.header-ui-text {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.svg-border-rounded svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1rem;
+    width: 100%;
+}
+
+.header-ui-img-position {
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    top: 19px;
+    overflow: hidden;
+}
+
+.header-image {
+    position: absolute;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    top: 18px;
+    margin: auto;
+    text-align: center;
+}
+
+.projects-header {
+    height: 1px;
+    background: #dddddd;
+    border-bottom: #ffffff solid 1px;
+    margin-bottom: 3.2rem;
+}
+
+.projects-header h3 {
+    text-align: center;
+    display: block;
+    color: #757575;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+    padding: 0 !important;
+}
+
+.card {
+    border: none !important;
+}
+
+.projects-content .card {
+    margin: 0 0 3.2rem 0;
+    background: #ffffff;
+    padding: 10px;
+    display: block;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -webkit-box-shadow: 0 1px 4px 0px rgb(0 0 0 / 20%);
+    -moz-box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 4px 0px rgb(0 0 0 / 20%);
+}
+
+.section-title {
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: .4rem; 
+}
+
+.section-text {
+    font-weight: 100;
+    font-size: 1rem;   
+}
+
+.section-title,
+.section-text {
+    color: var(--bs-body-color);
+}
+
+footer {
+    background: #f5f5f5;
+    padding: 18px 40px 10px;
+    color: #757575;
+    font-size: 1rem;
+    font-weight: 200;
+    text-align: center;
+    position: relative;
+    -webkit-box-shadow: inset 0px 1px 4px 0px rgb(0 0 0 / 10%);
+    -moz-box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0px 1px 4px 0px rgb(0 0 0 / 10%);
+}
+
+footer .gradient-white {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: -50px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: -moz-linear-gradient(center bottom, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ffffff), color-stop(1, rgba(255, 255, 255, 0)));
+    background-image: -webkit-linear-gradient(bottom, #ffffff, rgba(255, 255, 255, 0));
+    background-image: -o-linear-gradient(bottom, #ffffff, rgba(255, 255, 255, 0));
+    background-image: -ms-linear-gradient(bottom, #ffffff, rgba(255, 255, 255, 0));
+    background-image: linear-gradient(rgba(255, 255, 255, 0), #ffffff);
+}
+
+footer .left {
+    float: none !important;
+}
+
+.left {
+    float: left !important;
+}
+
+footer a {
+    color: #757575;
+    text-decoration: none;
+}
+
+.animate-color, footer a {
+    -webkit-transition: color .3s;
+    -moz-transition: color .3s;
+    -o-transition: color .3s;
+    transition: color .3s;
+}
+
+footer a:hover {
+    color: #333333;
+}
+
+footer nav {
+    display: none;
+}
+
+/*responsive*/
+@media (min-width: 1200px) {
+    .svg-border-rounded svg {
+        height: 3rem;
+    }
+
+    .bg-gradient-primary-to-secondary {
+        background-color: rgb(2,0,36) !important;
+        background-image: url(../img/me.png);
+        background-image: url(../img/me.png), linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(9,20,121,1) 0%, rgba(0,212,255,1) 100%) !important;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom center;
+    }
+
+    .projects-header h3 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .svg-border-rounded svg {
+        height: 2rem;
+    }
+
+    .header-ui-content, .header-ui-title {
+        font-size: 2.5rem;
+    }
+
+    .header-ui-text {
+        font-size: 1.15rem;
+    }
+
+    footer {
+        padding: 40px 40px 20px;
+    }
+}
+
+@media (min-width: 576px) {
+    .svg-border-rounded svg {
+        height: 1.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .svg-border-rounded svg {
+        height: 2.5rem;
+    }
+
+    .navbar-nav {
+        padding-top: 1.75rem;
+        padding-bottom: 1.75rem;
+    }
+}
+
+@media only screen and (min-width: 830px) {
+    footer .left {
+        float: left !important;
+    }
+
+    footer nav {
+        display: inline-block;
+        margin: auto;
+        float: right;
+    }
+
+    footer nav ul {
+        list-style: none;
+    }
+
+    footer nav li {
+        display: inline-block;
+    }
+
+    footer nav li a {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .fixed-top {
+        background-color: #212832 !important;
+    }
+
+    /*.navbar-main {
+        padding-top: 0;
+        padding-bottom: 0;
+    }*/
+
+    .header-ui-content {
+        padding-top: 3rem !important;
+    }
+}
+
+
+
+
+
+
