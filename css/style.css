@@ -361,7 +361,7 @@ footer nav {
         background-image: url(../img/me.png);
         background-image: url(../img/me.png), linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(9,20,121,1) 0%, rgba(0,212,255,1) 100%) !important;
         background-repeat: no-repeat;
-        background-size: contain;
+/*        background-size: contain;*/
         background-position: bottom center;
     }
 
